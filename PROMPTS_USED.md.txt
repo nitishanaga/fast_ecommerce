@@ -1,0 +1,24 @@
+# 💬 Prompts Used for Generating Documentation and Code
+
+This file lists all major prompts used while building this project with ChatGPT (GPT-5).
+
+---
+
+## 🧠 Prompts for Code
+- "Build an E-Commerce Website using Python and Streamlit"
+- "Create a local SQLite database and initialize it with sample product data"
+- "Write a Streamlit app that can show products, manage a shopping cart, and checkout"
+
+---
+
+## 🧩 Prompts for Documentation
+- "Create a README.md file for my Streamlit e-commerce app"
+- "Write a Technical Architecture Document explaining frontend, backend, and database flow"
+- "Give commands to push my project to GitHub"
+- "How to create and activate virtual environment in Windows"
+- "What to include in project artifacts to deliver for e-commerce assignment"
+
+---
+
+## 🧾 Notes
+All documentation and code were generated, edited, and verified by **Nitisha Naga** using ChatGPT (GPT-5) as an assistant tool.

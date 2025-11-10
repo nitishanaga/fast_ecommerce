@@ -1,0 +1,66 @@
+# 🧠 Technical Architecture Documentation
+
+## Overview
+This project is a **Python-based E-Commerce Web App** that allows users to browse products, add them to a cart, and checkout — all using **Streamlit** for the frontend and **SQLite3** for backend data handling.
+
+---
+
+## 🧱 System Architecture
+**Architecture Type:** Three-tier (Frontend, Backend, Database)
+
+### 1️⃣ Frontend
+- **Technology:** Streamlit
+- **Purpose:** Provides a simple, interactive UI to display products, manage the cart, and simulate checkout.
+- **Key Components:**
+  - Product listing interface
+  - Add-to-cart and remove-from-cart buttons
+  - Cart page showing items and total
+
+### 2️⃣ Backend
+- **Technology:** Python
+- **Purpose:** Handles business logic, manages cart data in session state, interacts with the database.
+- **Key Scripts:**
+  - `app.py` — main application
+  - `db_init.py` — initializes the database
+
+### 3️⃣ Database
+- **Technology:** SQLite3
+- **File:** `products.db`
+- **Purpose:** Stores product data (name, description, image, price)
+
+---
+
+## 🔄 Data Flow
+1. **User opens the app** → Streamlit runs `app.py`
+2. **Frontend (Streamlit)** fetches product data from SQLite database
+3. **User actions** (Add to cart, Remove item) are stored in Streamlit’s session state
+4. **Checkout** calculates total and displays summary
+
+---
+
+## ⚙️ Tools and Libraries
+| Component | Library / Tool |
+|------------|----------------|
+| UI | Streamlit |
+| Database | SQLite3 |
+| Image Handling | Pillow |
+| Environment | Python Virtualenv |
+
+---
+
+## 🧩 Deployment
+- Runs locally via: `streamlit run app.py`
+- Can be deployed on **Streamlit Cloud** or **Render**
+
+---
+
+## 🧾 Summary
+| Layer | Technology | Role |
+|--------|-------------|------|
+| Frontend | Streamlit | User Interface |
+| Backend | Python | Application Logic |
+| Database | SQLite3 | Data Storage |
+
+---
+
+✨ *Author: Nitisha Naga*
